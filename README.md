@@ -24,7 +24,9 @@ conda install -c conda-forge openbabel
 pip install ase rdkit-pypi pdb2pqr networkx numpy plams ase pandas
 ```
 
-## Clone the `MetalDock` package into a *separate* Git repo
+## Install the MetalDock packacge
+
+### Clone the `MetalDock` package into a *separate* Git repo
 
 ```
 cd ~/git
@@ -44,6 +46,8 @@ export PATH=$PATH:/Users/vv/git/MetalDock
 ```
 
 This now allows `metaldock` to run as a package installed in the MetalDock conda environment (yay!).
+
+### Put `python2.7` in your PATH
 
 But there's a new problem: The `metaldock` tries to find an installation of python2.7 and point an enviroment variable to it ..
 
