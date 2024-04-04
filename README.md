@@ -67,7 +67,7 @@ To fix this problem, I had to install a conda enviroment with python2.7 (but not
 /Users/vv/anaconda3/envs/py27/bin//python2.7
 
 
-$ export PATH=$PATH:/Users/vv/anaconda3/envs/py27/bin/
+(MetalDock) vv@90-9c-4a-c0-7c-9e git % export PATH=$PATH:/Users/vv/anaconda3/envs/py27/bin/
 ```
 
 Once this is achieved, it appears that metaldock is functional (!):
